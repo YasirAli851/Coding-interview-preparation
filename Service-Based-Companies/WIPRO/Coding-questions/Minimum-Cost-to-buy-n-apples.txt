@@ -129,7 +129,7 @@ void solve()
     // m1 or more than m2. And this is to check all the costs in terms of more of shop 1 and less 
     // of shop 2.                
     {
-        if(n-m1 >m1 || n-m1>m2) //we will deduct the apples(in terms if shop 1) only if remaining apples 
+        if(n-m1 >m1 || n-m1>m2) //we will deduct the apples(in terms of shop 1) only if remaining apples 
         //after deductions is either more than m1 or m2.and we will add the cost of shop 1 in cost1.
         {   cost1+=p1;
             n-=m1;
